@@ -39,7 +39,6 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.timeLabel = new System.Windows.Forms.Label();
             this.clickBut = new System.Windows.Forms.Button();
-            this.настройкаToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip.SuspendLayout();
             this.statusStrip.SuspendLayout();
             this.SuspendLayout();
@@ -76,8 +75,6 @@
             // 
             // toolStripMenuItem1
             // 
-            this.toolStripMenuItem1.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.настройкаToolStripMenuItem});
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
             this.toolStripMenuItem1.Size = new System.Drawing.Size(53, 20);
             this.toolStripMenuItem1.Text = "Меню";
@@ -122,12 +119,6 @@
             this.clickBut.UseVisualStyleBackColor = true;
             this.clickBut.Click += new System.EventHandler(this.clickButton2_Click);
             // 
-            // настройкаToolStripMenuItem
-            // 
-            this.настройкаToolStripMenuItem.Name = "настройкаToolStripMenuItem";
-            this.настройкаToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.настройкаToolStripMenuItem.Text = "Настройка";
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -163,7 +154,6 @@
         private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel1;
         private System.Windows.Forms.Button clickBut;
-        private System.Windows.Forms.ToolStripMenuItem настройкаToolStripMenuItem;
     }
 }
 
